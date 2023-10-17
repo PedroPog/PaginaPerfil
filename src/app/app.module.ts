@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeModule } from './pages/home/home.module';
+import { ProjetosModule } from './pages/projetos/projetos.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HomeModule } from './pages/home/home.module';
   imports: [
     BrowserModule,
     HomeModule,
+    ProjetosModule,
     RouterModule.forRoot(AppRoutes),
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),

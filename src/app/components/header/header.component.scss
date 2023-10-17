@@ -6,15 +6,18 @@
   padding: 0 2%;
   justify-content: center;
   align-items: center;
+  background: transparent;
   span{
     font-size: 2rem;
     cursor: pointer;
+    background: transparent;
     -webkit-user-select: none;
     user-select: none;
   }
   ul{
     display: inline-flex;
     width: 50%;
+    background: transparent;
     padding: 0;
     margin: 0;
     flex-direction: row;
@@ -22,11 +25,15 @@
     justify-content: flex-end;
     gap: 2%;
     li{
+      background: transparent;
       list-style: none;
       a{
         text-decoration: none;
+        background: transparent;
         color: black;
         &:hover{
+          transition: all 0.2s ease-in-out;
+          font-size: 1.1rem;
           color: purple;
         }
       }

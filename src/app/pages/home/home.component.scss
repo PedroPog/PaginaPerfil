@@ -7,10 +7,17 @@
   align-items: center;
   padding-top: 2%;
   padding-bottom: 2%;
+  background: transparent;
   img{
     border-radius: 100%;
+    background: transparent;
     width: 17vw;
     height: 32vh;
     box-shadow: 0 0 15px 4px #0000ff2b;
+  }
+  h1{
+    background: transparent;
+    -webkit-user-select: none;
+    user-select: none;
   }
 }
