@@ -1,0 +1,37 @@
+.caixas{
+  margin: 1% 2%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.3019607843);
+  padding: 1%;
+  border: none;
+  display: flex;
+  overflow: auto;
+  max-width: 96%;
+  min-height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px 4%;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+@media(max-width: 400px){
+  .caixas[_ngcontent-ng-c2176397659] {
+    margin: 1% 2%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.3019607843);
+    padding: 1%;
+    border: none;
+    display: flex;
+    overflow: auto;
+    max-width: 96%;
+    min-height: 100%;
+    flex-wrap: wrap;
+    gap: 30px 4%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
